@@ -34,7 +34,7 @@ function PageTiendaDetalle() {
   useEffect(() => {
     console.log("cargo");
     getProducto(idProducto);
-  }, []);
+  }, [idProducto]);
 
   return (
     <div className="container-tienda">

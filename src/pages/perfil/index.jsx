@@ -19,7 +19,7 @@ function PagePerfil(props) {
 
   useEffect(() => {
     getMascota(idMascota);
-  }, []);
+  }, [idMascota]);
 
   return (
     <div className="perfil_container">

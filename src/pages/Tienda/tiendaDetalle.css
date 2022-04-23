@@ -10,7 +10,7 @@
   width: 50%;
 }
 .container-extra {
-  min-width: 200px;
+  width: 230px;
 }
 @media (max-width: 450px) {
   .container-information {
