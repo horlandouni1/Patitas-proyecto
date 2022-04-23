@@ -10,10 +10,6 @@ import {
   AppstoreOutlined,
   MenuUnfoldOutlined,
   MenuFoldOutlined,
-  PieChartOutlined,
-  DesktopOutlined,
-  ContainerOutlined,
-  MailOutlined,
 } from "@ant-design/icons";
 import { useDispatch } from "react-redux";
 import { useHistory } from "react-router-dom";
@@ -55,7 +51,7 @@ function PageTienda() {
   };
   const seleccionarMark = (valor) => {
     const productosFiltrados = productosBuscado.filter(
-      (product) => product.mark === valor
+      (product) => product.mark.toLowerCase() === valor.toLowerCase()
     );
     setProductos(productosFiltrados);
   };
@@ -111,31 +107,31 @@ function PageTienda() {
               </Menu.Item>
             </SubMenu>
             <SubMenu key="sub2" icon={<AppstoreOutlined />} title="Marcas">
-              <Menu.Item key="4" onClick={() => seleccionarMark("Acana")}>
+              <Menu.Item key="4" onClick={() => seleccionarMark("acana")}>
                 Acana
               </Menu.Item>
-              <Menu.Item key="5" onClick={() => seleccionarMark("Amity")}>
+              <Menu.Item key="5" onClick={() => seleccionarMark("amity")}>
                 Amity
               </Menu.Item>
-              <Menu.Item key="6" onClick={() => seleccionarMark("Boreal")}>
+              <Menu.Item key="6" onClick={() => seleccionarMark("boreal")}>
                 Boreal
               </Menu.Item>
-              <Menu.Item key="7" onClick={() => seleccionarMark("Dog chow")}>
+              <Menu.Item key="7" onClick={() => seleccionarMark("dog chow")}>
                 Dog chow
               </Menu.Item>
               <Menu.Item
                 key="11"
-                onClick={() => seleccionarMark("Natura food")}
+                onClick={() => seleccionarMark("natura food")}
               >
                 Natura food
               </Menu.Item>
-              <Menu.Item key="8" onClick={() => seleccionarMark("Protect")}>
+              <Menu.Item key="8" onClick={() => seleccionarMark("protect")}>
                 Protect
               </Menu.Item>
-              <Menu.Item key="9" onClick={() => seleccionarMark("Purina")}>
+              <Menu.Item key="9" onClick={() => seleccionarMark("purina")}>
                 Purina
               </Menu.Item>
-              <Menu.Item key="10" onClick={() => seleccionarMark("Vitalcan")}>
+              <Menu.Item key="10" onClick={() => seleccionarMark("vitalcan")}>
                 Vitalcan
               </Menu.Item>
               {/* <SubMenu key="sub3" title="Submenu">

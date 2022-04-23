@@ -18,12 +18,12 @@ function CardTienda(props) {
       <h3 className="text-primary mt-1 font-mono text-xl font-bold">{name}</h3>
       <h4>S./{price}</h4>
       <h4 className="mt-1 text-sm mb-1">{mark}</h4>
-      <a
+      <span
         onClick={() => onViewProduct(id)}
-        className="p-2 bg-primary mb-1 block text-white hover:bg-blue-400 hover:text-black "
+        className="p-2 bg-primary mb-1 block text-white hover:bg-blue-400 hover:text-black cursor-pointer"
       >
         Ver producto
-      </a>
+      </span>
       {!isAdded ? (
         <button
           className="p-2 bg-primary block text-white hover:bg-blue-400 hover:text-black w-full"

@@ -76,7 +76,7 @@
   "productos": [
     {
       "class": "alimento",
-      "maskot": "",
+      "mascot": "cat",
       "mark": "purina",
       "name": "Purina Cat Show",
       "price": "42.00",
@@ -88,7 +88,7 @@
       "id": 2,
       "class": "accesorio",
       "mascot": "dog",
-      "mark": "sku",
+      "mark": "boreal",
       "name": "Correa Line",
       "price": "20.00",
       "description": "Correa para perro premium. Acolchado y suave. Con anillo en forma de D.",
@@ -98,7 +98,7 @@
       "id": 3,
       "class": "higiene",
       "mascot": "dog",
-      "mark": "sanitol",
+      "mark": "vitalcan",
       "name": "Shampoo antipulgas",
       "price": "23.00",
       "description": "es un producto cuidadosamente formulado para su perro. Este 3 en 1 es la solución ideal para dejar un pelo limpio, suave, manejable, con brillo y libre de pulgas",

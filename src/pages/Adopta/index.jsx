@@ -3,7 +3,6 @@ import Card from "../../components/card";
 import React from "react";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import { useHistory } from "react-router-dom";
 import { Menu, Button } from "antd";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
@@ -11,13 +10,8 @@ import {
   AppstoreOutlined,
   MenuUnfoldOutlined,
   MenuFoldOutlined,
-  PieChartOutlined,
-  DesktopOutlined,
-  ContainerOutlined,
-  MailOutlined,
 } from "@ant-design/icons";
 function PageAdopta() {
-  let history = useHistory();
   // const [perros, setPerros] = useState([]);
   // function getPerros() {
   //     axios
