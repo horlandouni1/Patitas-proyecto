@@ -1,0 +1,21 @@
+.containerPrincipal{
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.containerSecundario {
+  text-align: center;
+}
+
+.form-group{
+  border: 1px solid #031136;
+  border-radius: 12px;
+  padding: 40px;
+}
+
+.form-group label{
+  font-size: 16px;
+}

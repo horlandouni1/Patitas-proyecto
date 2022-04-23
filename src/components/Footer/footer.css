@@ -1,0 +1,156 @@
+:root {
+  --fuente: "Roboto", sans-serif;
+  --azulOscuro: #031136;
+  --azulClaro: #434a90;
+  --naranja: #ff5903;
+  --rosado: #fd6b6c;
+  --purpura: #c7a2cb;
+  --blanco: #fff;
+  --negro: #000;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: var(--fuente);
+  max-width: 1365px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+/* GENERALES */
+.btn {
+  width: 130px;
+  padding: 10px 0;
+  border-radius: 50px;
+  border-style: none;
+  font-family: var(--fuente);
+  font-size: 19px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.btn-login {
+  width: 160px;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  background-color: #fd6b6c;
+}
+
+.btn-adoptar {
+  width: 140px;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  background-color: #ff5903;
+}
+
+.btn-donar {
+  width: 140px;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  background-color: #c7a2cb;
+}
+
+@media (max-width: 1020px) {
+  .btn {
+    width: 190px;
+  }
+}
+
+
+.footer {
+  background-color: #031136;
+  max-width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.footer__logo {
+  width: 180px;
+  height: 80px;
+  margin: 15px 5px;
+}
+
+.footer ul {
+  display: flex;
+  gap: 30px;
+}
+
+.footer ul {
+  text-decoration: none;
+}
+
+@media (max-width: 920px) {
+  .footer {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer__logo {
+    width: 180px;
+    height: 80px;
+    margin: 0;
+  }
+
+  .footer ul {
+    display: none;
+  }
+}
+
+.footer a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 100;
+  font-size: 18px;
+  padding: 5px;
+  border-bottom: 0px solid #031136;
+}
+
+.footer a:hover {
+  font-weight: 400;
+  padding: 5px;
+  border-bottom: 1px solid #fff;
+}
+
+.redes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.redes h5 {
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.redes-iconos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}

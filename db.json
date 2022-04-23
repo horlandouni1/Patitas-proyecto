@@ -1,0 +1,144 @@
+{
+  "mascotas": [
+    {
+      "status": "false",
+      "name": "BELLATRIX",
+      "class": "dog",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/9/94/Cane_da_pastore_tedesco_adulto.jpg",
+      "age": "5",
+      "tall": "mediano",
+      "sex": "hembra",
+      "activity": "Nivel de actividad",
+      "hair": "Corto",
+      "history": "¡Hola, mi nombre es Bella! ¿Sabes por qué me pusieron ese nombre? Pues porque soy super linda y noble. A mi me rescataron con bastantes problemas de piel, pero con mucho cuidado y amor, he logrado recuperarme de a pocos. Ahora ya estoy lista para irme a mi nuevo hogar. Soy una Wuf super cariñosa que siempre busco estar acompañada, por lo que busco una familia que me acompañe por siempre. Además, si me adoptas, vengo con un kit de regalos ¡Anímate!",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "ANITA",
+      "class": "dog",
+      "photo": "https://www.tiendanimal.es/articulos/wp-content/uploads/2017/02/comen-los-cachorros-border-collie-1200x720.jpg",
+      "status": "false",
+      "sex": "hembra",
+      "hair": "Corto",
+      "tall": "mediano",
+      "activity": "Alta",
+      "age": "8",
+      "history": "¡Hola! Mi nombre es Anita y contigo, mi querido humano, tendremos una amistad que no olvidarás jamás. Me encanta jugar, saltar y divertirme con otros perros. Además, si me adoptas, vengo con un kit de regalos. ¡Anímate!"
+    },
+    {
+      "status": "false",
+      "name": "NACHO",
+      "class": "dog",
+      "photo": "https://www.eluniverso.com/resizer/y4Scc_nzI4QX7pgXMIhZpiIGBkg=/1190x670/smart/filters:quality(70)/cloudfront-us-east-1.images.arcpublishing.com/eluniverso/YKYSZKHYV5FOFJCC3ZFY42ABYE.jpg",
+      "age": "9",
+      "tall": "mediano",
+      "sex": "macho",
+      "activity": "Nivel de actividad",
+      "hair": "Corto",
+      "history": "¡Hola! Mi nombre es Nacho. Me encanta jugar, saltar y divertirme con otros perros. Soy un Wuf super fiel y amoroso. Además, si me adoptas, vengo con un kit de regalos. ¡Anímate!",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "name": "CHIPI",
+      "class": "dog",
+      "photo": "https://superpet.pe/blog/wp-content/uploads/2021/08/Golden-Retriever-La-gui%CC%81a-completa-de-esta-raza-1-750x450.jpg",
+      "status": "true",
+      "sex": "macho",
+      "tall": "pequeño",
+      "activity": "Media",
+      "hair": "Corto",
+      "age": "4",
+      "history": "Yo soy Chipi, y no vas a encontrar un Wuf más bueno que yo. Soy tranquilo, obediente y no entiendo el concepto de lo que son los juguetes, así que prefiero corretear para divertirme. Me gusta pasear y relajarme mientras me hacen cariño. Además, si me adoptas, vengo con un kit de regalos ¡Anímate!"
+    },
+    {
+      "status": "true",
+      "name": "MOO",
+      "class": "dog",
+      "photo": "https://www.purina-latam.com/sites/g/files/auxxlc391/files/styles/social_share_large/public/purina-7-razas-de-perros-peque%C3%B1os-para-departamento.png?itok=YVNHzG8L",
+      "age": "3",
+      "tall": "mediano",
+      "sex": "macho",
+      "activity": "Mediano",
+      "hair": "Corto",
+      "history": "tiene cola",
+      "id": 5
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "productos": [
+    {
+      "class": "alimento",
+      "maskot": "",
+      "mark": "purina",
+      "name": "Purina Cat Show",
+      "price": "42.00",
+      "description": "Es una combinación exclusiva de prebiótico natural, antioxidantes, vitaminas, y minerales que ayudan a fortalecer las defensas naturales de tu gato. Esto ayudará a promover un sistema inmune fuerte para proteger su estilo de vida único.",
+      "photo": "https://www.purina-latam.com/sites/g/files/auxxlc391/files/styles/kraken_generic_max_width_360/public/ADULTO%20POLLO.png?itok=7Oa5TemS",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "class": "accesorio",
+      "mascot": "dog",
+      "mark": "sku",
+      "name": "Correa Line",
+      "price": "20.00",
+      "description": "Correa para perro premium. Acolchado y suave. Con anillo en forma de D.",
+      "photo": "https://static.wixstatic.com/media/1a438b_fdad0ecb6d8747bcba5f9ea9222b7e4a~mv2.jpg/v1/fill/w_625,h_625,al_c,q_85,usm_0.66_1.00_0.01/1a438b_fdad0ecb6d8747bcba5f9ea9222b7e4a~mv2.webp"
+    },
+    {
+      "id": 3,
+      "class": "higiene",
+      "mascot": "dog",
+      "mark": "sanitol",
+      "name": "Shampoo antipulgas",
+      "price": "23.00",
+      "description": "es un producto cuidadosamente formulado para su perro. Este 3 en 1 es la solución ideal para dejar un pelo limpio, suave, manejable, con brillo y libre de pulgas",
+      "photo": "https://static.wixstatic.com/media/1a438b_96b9612fd9704d05aec8e0c2926ab064~mv2.jpg/v1/fill/w_625,h_625,al_c,q_85,usm_0.66_1.00_0.01/1a438b_96b9612fd9704d05aec8e0c2926ab064~mv2.webp"
+    },
+    {
+      "class": "higiene",
+      "mascot": "cat",
+      "mark": "protect",
+      "name": "Antipulgas para gato",
+      "price": "12",
+      "description": "Antiparasitarion externo con solución tópica (Spot On) para el control de pulgas, garrapatas, ácaros de los oídos en gatos y nematodes gastrointestinales durante 12 semanas.",
+      "photo": "https://static.wixstatic.com/media/1a438b_75b7703c4c00416481eba12b4d2a2500~mv2.jpg/v1/fill/w_625,h_625,al_c,q_85,usm_0.66_1.00_0.01/1a438b_75b7703c4c00416481eba12b4d2a2500~mv2.webp",
+      "id": 4
+    },
+    {
+      "class": "accesorio",
+      "mascot": "dog",
+      "mark": "dog chow",
+      "name": "Hunter Arnes Education",
+      "price": "80.90",
+      "description": "Entrenamiento suave para tu perro. FOLLOW ME es un arnés fácil de usar que aumenta enormemente la facilidad y eficacia del entrenamiento y la educación de su perro a través de su amplia variedad de funciones. Las funciones individuales están diseñadas para reproducir medidas que se encuentran en el mundo animal: una ligera tensión en el puente de la nariz y el cuello disciplina suavemente a su perro sin interrumpir ni obstaculizar sus movimientos naturales. ",
+      "photo": "https://fancypets.pe/wp-content/uploads/4016739359230_1.jpg",
+      "id": 5
+    },
+    {
+      "class": "accesorio",
+      "mascot": "cat",
+      "mark": "acana",
+      "name": "Intersand Arena Odour",
+      "price": "80.45",
+      "description": "Gracias a su tecnología patentada, nuestra arena OdourLock neutraliza la formación de amoniaco para controlar de forma inigualable los olores de la orina y de las heces. La orina de los gatos no contiene amoniaco en sí, sino que este se forma en la bandeja de arena cuando la orina entra en contacto con el oxígeno y produce bacterias. El amoniaco es el responsable del olor desagradable que tiene la bandeja de arena. ",
+      "photo": "https://fancypets.pe/wp-content/uploads/777979214065_1.jpg",
+      "id": 6
+    }
+  ],
+  "users": [
+    {
+      "username": "horlando",
+      "password": "12345"
+    }
+  ]
+}

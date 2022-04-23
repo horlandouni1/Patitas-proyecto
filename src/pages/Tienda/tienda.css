@@ -1,0 +1,12 @@
+@media (max-width: 770px) {
+  .container-filtro {
+    display: none;
+  }
+}
+.container-productos {
+  width: 90%;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}

@@ -1,0 +1,24 @@
+.gestion-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.gestion-container h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.gestion-container img {
+  width: 500px;
+  height: 300px;
+}
+.gestion-container li {
+  font-size: 23px;
+  margin-bottom: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+.container-gestion-mascota {
+  margin-bottom: 10px;
+}

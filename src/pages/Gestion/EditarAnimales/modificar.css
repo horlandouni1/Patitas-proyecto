@@ -1,0 +1,42 @@
+.modificar_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.modificar_container form {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.modificar_container input,
+.modificar_container select {
+  padding: 10px;
+  width: 45%;
+  margin: 10px;
+  border: 1px solid black;
+}
+.modificar_container input:nth-of-type(4) {
+  width: 93%;
+}
+.modificar_container textarea {
+  padding: 10px;
+  width: 93%;
+  margin: 10px;
+  border: 1px solid black;
+}
+.modificar_container button {
+  padding: 10px;
+  width: 200px;
+  margin: 10px 240px;
+}
+@media (max-width: 718px) {
+  .modificar_container form {
+    width: 90%;
+  }
+  .modificar_container input,
+  .modificar_container select {
+    width: 100%;
+  }
+}

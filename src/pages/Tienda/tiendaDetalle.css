@@ -1,0 +1,21 @@
+.container-tienda {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.container-photo img {
+  width: 250px;
+}
+.container-information {
+  width: 50%;
+}
+.container-extra {
+  min-width: 200px;
+}
+@media (max-width: 450px) {
+  .container-information {
+    width: 90%;
+    padding-top: 10px;
+    margin-bottom: 10px;
+  }
+}
